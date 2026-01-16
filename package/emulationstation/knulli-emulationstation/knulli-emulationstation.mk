@@ -4,8 +4,8 @@
 #
 ################################################################################
 # Last update: Commits on Oct 18, 2024
-KNULLI_EMULATIONSTATION_VERSION = knulli
-KNULLI_EMULATIONSTATION_SITE = https://github.com/knulli-cfw/batocera-emulationstation
+KNULLI_EMULATIONSTATION_VERSION = testsystem
+KNULLI_EMULATIONSTATION_SITE = https://github.com/chrizzo-hb/knulli-emulationstation
 KNULLI_EMULATIONSTATION_SITE_METHOD = git
 KNULLI_EMULATIONSTATION_LICENSE = MIT
 KNULLI_EMULATIONSTATION_GIT_SUBMODULES = YES

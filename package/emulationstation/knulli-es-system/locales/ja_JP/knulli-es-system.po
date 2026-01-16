@@ -2078,7 +2078,7 @@ msgctxt "game_options"
 msgid "ADJUST POWERPC FREQUENCY"
 msgstr "PowerPC の周波数を調整"
 
-#. TRANSLATION: amiberry, amiberry, cemu, cemu, cemu, ...
+#. TRANSLATION: amiberry, amiberry, azahar, cemu, cemu, ...
 msgctxt "game_options"
 msgid "ADVANCED OPTIONS"
 msgstr "詳細設定"
@@ -2955,7 +2955,7 @@ msgctxt "game_options"
 msgid "Arrange the dual screen layout."
 msgstr "デュアルスクリーンレイアウトを配置します"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid ""
 "Arrange the dual screen layout. Separate windows can be changed with "
@@ -3527,7 +3527,7 @@ msgctxt "game_options"
 msgid "Bottom (Default)"
 msgstr "下 (標準)"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Bottom Only"
 msgstr "下画面のみ（切替不可）"
@@ -4532,7 +4532,7 @@ msgstr ""
 "SDL ゲームコントローラー設定をWindowsゲームに渡すかどうかを選択します。 ゲー"
 "ムによっては無効にする必要があります"
 
-#. TRANSLATION: cemu, citra, dolphin, duckstation, gzdoom, ...
+#. TRANSLATION: azahar, cemu, citra, dolphin, duckstation, ...
 msgctxt "game_options"
 msgid "Choose which graphics API library to use."
 msgstr "使用するグラフィック API を選択します"
@@ -4758,7 +4758,7 @@ msgstr ""
 "ゲームの次回起動時にシェーダーコンパイルします (1回，プチフリーズ軽減)Vulkan "
 "のみ"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid ""
 "Compile shaders using background threads to avoid shader compilation "
@@ -5044,7 +5044,7 @@ msgctxt "game_options"
 msgid "DISABLE VERTEX CACHE"
 msgstr "VERTEXキャッシュを無効"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "DISK SHADER CACHE"
 msgstr "ディスクシェーダーキャッシュ"
@@ -5698,7 +5698,7 @@ msgctxt "game_options"
 msgid "ENABLE AI TRANSLATION SERVICE"
 msgstr "AIゲーム翻訳サービスを有効"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "ENABLE ASYNC SHADER COMPILATION"
 msgstr "非同期シェーダーのコンパイルを有効"
@@ -6428,7 +6428,7 @@ msgstr ""
 "強化：16:9の比率でレンダリング解像度を上げます。 3Dオブジェクトをより明確にし"
 "ます"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, flycast, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid ""
 "Enhancement. Increase the rendering resolution. Makes 3D objects clearer."
@@ -6766,7 +6766,7 @@ msgctxt "game_options"
 msgid "FRAME DUPING (SPEED UP)"
 msgstr "フレームデュッピング（スピードアップ）"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "FRAME LIMIT"
 msgstr "フレーム制限"
@@ -6952,7 +6952,7 @@ msgstr ""
 "画面のティアリングを修正します。Adaptive VSync (標準) は、すぐに表示される遅"
 "いフレーム (ターゲット FPS を下回る) を除き、ビデオ同期で同期します。"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, pcsx2
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "Fix screen tearing. CPU heavy."
 msgstr ""
@@ -7536,12 +7536,12 @@ msgctxt "game_options"
 msgid "GRAPHICAL USER INTERFACE"
 msgstr "グラフィカル ユーザー インターフェース"
 
-#. TRANSLATION: citra, citra, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "GRAPHICS"
 msgstr "グラフィック 設定"
 
-#. TRANSLATION: cemu, citra, dolphin, duckstation, flycast, ...
+#. TRANSLATION: azahar, cemu, citra, dolphin, duckstation, ...
 msgctxt "game_options"
 msgid "GRAPHICS API"
 msgstr "グラフィック API"
@@ -7833,6 +7833,11 @@ msgctxt "game_options"
 msgid "HARD TEXTURE CACHE MEMORY LIMIT"
 msgstr "ハード テクスチャ キャッシュ メモリ制限"
 
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "HARDWARE SHADER"
+msgstr ""
+
 #. TRANSLATION: theforceengine
 msgctxt "game_options"
 msgid "HD TEXTURES"
@@ -7892,6 +7897,11 @@ msgstr "HLE (ピクセルごと)"
 msgctxt "game_options"
 msgid "HLE (per-strip)"
 msgstr "HLE (ストリップごと)"
+
+#. TRANSLATION: yabasanshiro
+msgctxt "game_options"
+msgid "HLE BIOS"
+msgstr ""
 
 #. TRANSLATION: scummvm
 msgctxt "game_options"
@@ -7971,6 +7981,11 @@ msgid ""
 msgstr ""
 "不要なときに CPU を制限することで、CPU の電力消費を削減します。\n"
 "ハンドヘルドに便利です"
+
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "Helps some games to launch when disabled. May affect performance."
+msgstr ""
 
 #. TRANSLATION: libretro/dosbox_pure
 msgctxt "game_options"
@@ -8084,12 +8099,12 @@ msgctxt "game_options"
 msgid "Hybrid + Bicubic"
 msgstr "ハイブリッド+バイキュービック"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Hybrid Screen Bottom"
 msgstr "ハイブリッド (上下＋大下)"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Hybrid Screen Top"
 msgstr "ハイブリッド (上下＋大上)"
@@ -8768,7 +8783,7 @@ msgid "LLVM is fastest, use the Interpreter settings if there are issues."
 msgstr ""
 "LLVMが最速です。問題がある場合は、インタープリター設定を使用してください"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, libretro/mesen, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "LOAD CUSTOM TEXTURES"
 msgstr "カスタムテクスチャを読み込む"
@@ -8793,12 +8808,12 @@ msgctxt "game_options"
 msgid "Landscape"
 msgstr "ランドスケープ(横)"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Large Bottom"
 msgstr "下画面を大きく"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Large Top"
 msgstr "上画面を大きく"
@@ -8828,7 +8843,7 @@ msgctxt "game_options"
 msgid "Left stick"
 msgstr "Lスティック"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Left/Right"
 msgstr "左(上画面) / 右(下画面)"
@@ -9610,7 +9625,7 @@ msgctxt "game_options"
 msgid "NETWORK TYPE"
 msgstr "ネットワークタイプ"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "NEW 3DS MODE"
 msgstr "New 3DS モード"
@@ -10020,7 +10035,7 @@ msgctxt "game_options"
 msgid "October"
 msgstr "10月"
 
-#. TRANSLATION: cannonball, cemu, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "Off"
 msgstr "使用しない"
@@ -10055,7 +10070,7 @@ msgctxt "game_options"
 msgid "Off is safer, On for specific games."
 msgstr "オフの方が安全です。特定のゲームの場合はオンです"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Off will help some games, others will run too fast."
 msgstr "[使用しない]は一部のゲームに役立ちますが、他のゲームは速すぎます"
@@ -10079,7 +10094,7 @@ msgctxt "game_options"
 msgid "Olivetti Prodest PC 128S disks (BBC Master Compact)"
 msgstr "Olivetti Prodest PC 128S ディスク（BBCマスターコンパクト）"
 
-#. TRANSLATION: cannonball, citra, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "On"
 msgstr "使用"
@@ -10190,7 +10205,7 @@ msgctxt "game_options"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#. TRANSLATION: citra, flycast, gzdoom, play, scummvm
+#. TRANSLATION: azahar, citra, flycast, gzdoom, play, ...
 msgctxt "game_options"
 msgid "OpenGL (Default)"
 msgstr "OpenGL (標準)"
@@ -10873,7 +10888,7 @@ msgctxt "game_options"
 msgid "Prefer \"Before NMI\", change to After NMI only if needed by the game."
 msgstr "[BeforeNMI]を優先し、ゲームで必要な場合にのみ[AfterNMI]に変更します"
 
-#. TRANSLATION: citra, duckstation
+#. TRANSLATION: azahar, citra, duckstation
 msgctxt "game_options"
 msgid "Preload"
 msgstr "自動読取"
@@ -10883,7 +10898,7 @@ msgctxt "game_options"
 msgid "Preload requires more RAM."
 msgstr "より多くのRAMが必要です"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Preloading is impossible from ES."
 msgstr "ESからの事前読込みは不可能です"
@@ -11057,7 +11072,7 @@ msgctxt "game_options"
 msgid "RENDERING MODE"
 msgstr "レンダリングモード"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, libretro/desmume, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "RENDERING RESOLUTION"
 msgstr "レンダリング解像度"
@@ -11228,7 +11243,7 @@ msgctxt "game_options"
 msgid "Reduce load time at the cost of accuracy."
 msgstr "精度を犠牲にして読込時間を短縮します"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Reduce stutter that happens when compiling shaders."
 msgstr "シェーダーを構築するときに発生するカクつきを減らします"
@@ -11406,7 +11421,7 @@ msgctxt "game_options"
 msgid "Right stick"
 msgstr "Rスティック"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Right/Left"
 msgstr "右(上画面) / 左(下画面)"
@@ -11582,7 +11597,7 @@ msgctxt "game_options"
 msgid "SCREEN INCLINATION"
 msgstr "画面の向き"
 
-#. TRANSLATION: citra, drastic, libretro/desmume, libretro/melonds, melonds
+#. TRANSLATION: azahar, citra, drastic, libretro/desmume, libretro/melonds, ...
 msgctxt "game_options"
 msgid "SCREEN LAYOUT"
 msgstr "画面レイアウト"
@@ -12214,7 +12229,7 @@ msgctxt "game_options"
 msgid "Selfie"
 msgstr "自画像"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Separate Windows"
 msgstr "１画面（切替可能）"
@@ -12726,7 +12741,7 @@ msgctxt "game_options"
 msgid "Soften the hash sound effect from some games."
 msgstr "一部のゲームの耳障りな効果音を和らげます"
 
-#. TRANSLATION: citra, duckstation, libretro/melondsds, melonds, pcsx2, ...
+#. TRANSLATION: azahar, citra, duckstation, libretro/melondsds, melonds, ...
 msgctxt "game_options"
 msgid "Software"
 msgstr "ソフトウェア"
@@ -13397,7 +13412,7 @@ msgctxt "game_options"
 msgid "Tandy Radio Shack Color Computer disk images"
 msgstr "Tandy Radio Shack Color Computer ディスクイメージ"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "The New 3DS has a faster processor, ZL/ZR buttons and a C-stick."
 msgstr "New 3DSには、より高速なプロセッサ、ZL/ZR ボタン、Cスティックがあります"
@@ -13560,7 +13575,7 @@ msgctxt "game_options"
 msgid "Top"
 msgstr "上"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Top Only"
 msgstr "上画面のみ（切替不可）"
@@ -14065,6 +14080,11 @@ msgid ""
 "Use if you're having graphical issues or GPU problems with this emulator."
 msgstr "グラフィックの問題または GPU の問題が発生している場合に使用します"
 
+#. TRANSLATION: yabasanshiro
+msgctxt "game_options"
+msgid "Use internal emulated BIOS. May affect compatibility with some games."
+msgstr ""
+
 #. TRANSLATION: libretro/melonds
 msgctxt "game_options"
 msgid "Use language and username from the NDS Firmware"
@@ -14305,7 +14325,7 @@ msgctxt "game_options"
 msgid "VISUAL NUDGE STRENGTH"
 msgstr "視覚的なナッジの強さ"
 
-#. TRANSLATION: bigpemu, cemu, citra, demul, dolphin, ...
+#. TRANSLATION: azahar, bigpemu, cemu, citra, demul, ...
 msgctxt "game_options"
 msgid "VSYNC"
 msgstr "VSYNC(垂直同期)有効"
@@ -14395,7 +14415,7 @@ msgctxt "game_options"
 msgid "Vsync"
 msgstr "VSYNC(垂直同期)"
 
-#. TRANSLATION: citra, dolphin, duckstation, flycast, gzdoom, ...
+#. TRANSLATION: azahar, citra, dolphin, duckstation, flycast, ...
 msgctxt "game_options"
 msgid "Vulkan"
 msgstr "Vulkan"

@@ -2078,7 +2078,7 @@ msgctxt "game_options"
 msgid "ADJUST POWERPC FREQUENCY"
 msgstr "POWERPC FREKVENCIA BEÁLLÍTÁSA"
 
-#. TRANSLATION: amiberry, amiberry, cemu, cemu, cemu, ...
+#. TRANSLATION: amiberry, amiberry, azahar, cemu, cemu, ...
 msgctxt "game_options"
 msgid "ADVANCED OPTIONS"
 msgstr "BŐVÍTETT OPCIÓK"
@@ -2960,7 +2960,7 @@ msgctxt "game_options"
 msgid "Arrange the dual screen layout."
 msgstr "Rendezze el a kétképernyős elrendezést."
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid ""
 "Arrange the dual screen layout. Separate windows can be changed with "
@@ -3534,7 +3534,7 @@ msgctxt "game_options"
 msgid "Bottom (Default)"
 msgstr "Alsó (alapértelmezett)"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Bottom Only"
 msgstr "Csak alul"
@@ -4549,7 +4549,7 @@ msgstr ""
 "Válassza ki, hogy átadja-e az SDL Game Controller konfigurációját a Windows "
 "játéknak. A letiltása segíthet bizonyos játékoknál."
 
-#. TRANSLATION: cemu, citra, dolphin, duckstation, gzdoom, ...
+#. TRANSLATION: azahar, cemu, citra, dolphin, duckstation, ...
 msgctxt "game_options"
 msgid "Choose which graphics API library to use."
 msgstr "Válassza ki a használni kívánt grafikus API-könyvtárat."
@@ -4775,7 +4775,7 @@ msgid ""
 "Vulkan only."
 msgstr ""
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid ""
 "Compile shaders using background threads to avoid shader compilation "
@@ -5063,7 +5063,7 @@ msgctxt "game_options"
 msgid "DISABLE VERTEX CACHE"
 msgstr "A VERTEX CACHE TILTÁSA"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "DISK SHADER CACHE"
 msgstr "DISK SHADER GYORSÍTÓTÁR"
@@ -5720,7 +5720,7 @@ msgctxt "game_options"
 msgid "ENABLE AI TRANSLATION SERVICE"
 msgstr "MI FORDÍTÁSI SZOLGÁLTATÁS ENGEDÉLYEZÉSE"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "ENABLE ASYNC SHADER COMPILATION"
 msgstr "ASYNC SHADER ÖSSZEÁLLÍTÁS ENGEDÉLYEZÉSE"
@@ -6463,7 +6463,7 @@ msgstr ""
 "Fokozás. Növelje a renderelési felbontást 16:9 arányban. Világosabbá teszi a "
 "3D objektumokat."
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, flycast, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid ""
 "Enhancement. Increase the rendering resolution. Makes 3D objects clearer."
@@ -6801,7 +6801,7 @@ msgctxt "game_options"
 msgid "FRAME DUPING (SPEED UP)"
 msgstr "KERET DUGULÁS (GYORSÍTÁS)"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "FRAME LIMIT"
 msgstr "KÉPKOCKA LIMIT"
@@ -6979,7 +6979,7 @@ msgid ""
 "except for late frames (below target FPS) which are displayed immediately."
 msgstr ""
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, pcsx2
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "Fix screen tearing. CPU heavy."
 msgstr "Javítsa ki a képernyő szakadását. CPU terhelő."
@@ -7552,12 +7552,12 @@ msgctxt "game_options"
 msgid "GRAPHICAL USER INTERFACE"
 msgstr "GRAFIKUS FELHASZNÁLÓI FELÜLET"
 
-#. TRANSLATION: citra, citra, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "GRAPHICS"
 msgstr "GRAFIKA"
 
-#. TRANSLATION: cemu, citra, dolphin, duckstation, flycast, ...
+#. TRANSLATION: azahar, cemu, citra, dolphin, duckstation, ...
 msgctxt "game_options"
 msgid "GRAPHICS API"
 msgstr "GRAFIKUS API"
@@ -7850,6 +7850,11 @@ msgctxt "game_options"
 msgid "HARD TEXTURE CACHE MEMORY LIMIT"
 msgstr ""
 
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "HARDWARE SHADER"
+msgstr ""
+
 #. TRANSLATION: theforceengine
 msgctxt "game_options"
 msgid "HD TEXTURES"
@@ -7909,6 +7914,11 @@ msgstr "HLE (képpontonként)"
 msgctxt "game_options"
 msgid "HLE (per-strip)"
 msgstr "HLE (per-strip)"
+
+#. TRANSLATION: yabasanshiro
+msgctxt "game_options"
+msgid "HLE BIOS"
+msgstr ""
 
 #. TRANSLATION: scummvm
 msgctxt "game_options"
@@ -7988,6 +7998,11 @@ msgid ""
 msgstr ""
 "Segít csökkenteni a CPU energiafogyasztását azáltal, hogy leszabályozza a "
 "CPU-t, amikor nincs rá szükség. Hasznos kézi számítógépekhez."
+
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "Helps some games to launch when disabled. May affect performance."
+msgstr ""
 
 #. TRANSLATION: libretro/dosbox_pure
 msgctxt "game_options"
@@ -8101,12 +8116,12 @@ msgctxt "game_options"
 msgid "Hybrid + Bicubic"
 msgstr ""
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Hybrid Screen Bottom"
 msgstr "Hybrid Screen Bottom"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Hybrid Screen Top"
 msgstr "Hybrid Screen Top"
@@ -8794,7 +8809,7 @@ msgctxt "game_options"
 msgid "LLVM is fastest, use the Interpreter settings if there are issues."
 msgstr ""
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, libretro/mesen, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "LOAD CUSTOM TEXTURES"
 msgstr "EGYÉNI TEXTÚRÁK BETÖLTÉSE"
@@ -8819,12 +8834,12 @@ msgctxt "game_options"
 msgid "Landscape"
 msgstr "Fekvő"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Large Bottom"
 msgstr "Nagy alsó"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Large Top"
 msgstr "Nagy felső"
@@ -8854,7 +8869,7 @@ msgctxt "game_options"
 msgid "Left stick"
 msgstr "Bal kar"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Left/Right"
 msgstr "Bal/Jobb"
@@ -9640,7 +9655,7 @@ msgctxt "game_options"
 msgid "NETWORK TYPE"
 msgstr "HÁLÓZAT TÍPUSA"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "NEW 3DS MODE"
 msgstr "ÚJ 3DS MÓD"
@@ -10049,7 +10064,7 @@ msgctxt "game_options"
 msgid "October"
 msgstr "Október"
 
-#. TRANSLATION: cannonball, cemu, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "Off"
 msgstr "Ki"
@@ -10086,7 +10101,7 @@ msgstr ""
 "A kikapcsolt állapot biztonságosabb, a bekapcsolt állapot bizonyos "
 "játékokhoz."
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Off will help some games, others will run too fast."
 msgstr "A kikapcsolás segít néhány játékon, mások túl gyorsan fognak futni."
@@ -10111,7 +10126,7 @@ msgctxt "game_options"
 msgid "Olivetti Prodest PC 128S disks (BBC Master Compact)"
 msgstr "Olivetti Prodest PC 128S disks (BBC Master Compact)"
 
-#. TRANSLATION: cannonball, citra, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "On"
 msgstr "Be"
@@ -10226,7 +10241,7 @@ msgctxt "game_options"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#. TRANSLATION: citra, flycast, gzdoom, play, scummvm
+#. TRANSLATION: azahar, citra, flycast, gzdoom, play, ...
 msgctxt "game_options"
 msgid "OpenGL (Default)"
 msgstr "OpenGL (alapértelmezett)"
@@ -10909,7 +10924,7 @@ msgstr ""
 "Az \"NMI előtt\" opciót részesítsd előnyben, az \"NMI után\"-ra csak akkor "
 "váltsd át, ha a játéknak szüksége van rá."
 
-#. TRANSLATION: citra, duckstation
+#. TRANSLATION: azahar, citra, duckstation
 msgctxt "game_options"
 msgid "Preload"
 msgstr "Előtöltés"
@@ -10919,7 +10934,7 @@ msgctxt "game_options"
 msgid "Preload requires more RAM."
 msgstr ""
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Preloading is impossible from ES."
 msgstr "Az ES előtöltése lehetetlen."
@@ -11091,7 +11106,7 @@ msgctxt "game_options"
 msgid "RENDERING MODE"
 msgstr ""
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, libretro/desmume, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "RENDERING RESOLUTION"
 msgstr "RENDERELÉSI FELBONTÁS"
@@ -11264,7 +11279,7 @@ msgctxt "game_options"
 msgid "Reduce load time at the cost of accuracy."
 msgstr "Csökkentse a betöltési időt a pontosság árán."
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Reduce stutter that happens when compiling shaders."
 msgstr "Csökkentse az árnyékolók összeállítása során előforduló dadogást."
@@ -11444,7 +11459,7 @@ msgctxt "game_options"
 msgid "Right stick"
 msgstr "Jobb kar"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Right/Left"
 msgstr "Jobb/Bal"
@@ -11620,7 +11635,7 @@ msgctxt "game_options"
 msgid "SCREEN INCLINATION"
 msgstr "KÉPERNYŐ DŐLÉSSZÖGE"
 
-#. TRANSLATION: citra, drastic, libretro/desmume, libretro/melonds, melonds
+#. TRANSLATION: azahar, citra, drastic, libretro/desmume, libretro/melonds, ...
 msgctxt "game_options"
 msgid "SCREEN LAYOUT"
 msgstr "KÉPERNYŐ ELRENDEZÉS"
@@ -12252,7 +12267,7 @@ msgctxt "game_options"
 msgid "Selfie"
 msgstr "Szelfi"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Separate Windows"
 msgstr "Osztott Ablak"
@@ -12769,7 +12784,7 @@ msgctxt "game_options"
 msgid "Soften the hash sound effect from some games."
 msgstr "Egyes játékok hash hangeffektusának lágyítása."
 
-#. TRANSLATION: citra, duckstation, libretro/melondsds, melonds, pcsx2, ...
+#. TRANSLATION: azahar, citra, duckstation, libretro/melondsds, melonds, ...
 msgctxt "game_options"
 msgid "Software"
 msgstr "Szoftver"
@@ -13440,7 +13455,7 @@ msgctxt "game_options"
 msgid "Tandy Radio Shack Color Computer disk images"
 msgstr "Tandy Radio Shack Color Computer lemezkép"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "The New 3DS has a faster processor, ZL/ZR buttons and a C-stick."
 msgstr ""
@@ -13600,7 +13615,7 @@ msgctxt "game_options"
 msgid "Top"
 msgstr "Felső"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Top Only"
 msgstr "Csak felül"
@@ -14106,6 +14121,11 @@ msgid ""
 msgstr ""
 "Akkor használja, ha grafikus vagy GPU-problémái vannak ezzel az emulátorral."
 
+#. TRANSLATION: yabasanshiro
+msgctxt "game_options"
+msgid "Use internal emulated BIOS. May affect compatibility with some games."
+msgstr ""
+
 #. TRANSLATION: libretro/melonds
 msgctxt "game_options"
 msgid "Use language and username from the NDS Firmware"
@@ -14344,7 +14364,7 @@ msgctxt "game_options"
 msgid "VISUAL NUDGE STRENGTH"
 msgstr "VIZUÁLIS LÖKÉSERŐSSÉG"
 
-#. TRANSLATION: bigpemu, cemu, citra, demul, dolphin, ...
+#. TRANSLATION: azahar, bigpemu, cemu, citra, demul, ...
 msgctxt "game_options"
 msgid "VSYNC"
 msgstr "VSYNC"
@@ -14434,7 +14454,7 @@ msgctxt "game_options"
 msgid "Vsync"
 msgstr "Vsync"
 
-#. TRANSLATION: citra, dolphin, duckstation, flycast, gzdoom, ...
+#. TRANSLATION: azahar, citra, dolphin, duckstation, flycast, ...
 msgctxt "game_options"
 msgid "Vulkan"
 msgstr "Vulkan"

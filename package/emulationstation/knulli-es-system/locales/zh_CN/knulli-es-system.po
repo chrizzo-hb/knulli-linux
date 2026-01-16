@@ -2083,7 +2083,7 @@ msgctxt "game_options"
 msgid "ADJUST POWERPC FREQUENCY"
 msgstr "调整 PowerPC 频率"
 
-#. TRANSLATION: amiberry, amiberry, cemu, cemu, cemu, ...
+#. TRANSLATION: amiberry, amiberry, azahar, cemu, cemu, ...
 msgctxt "game_options"
 msgid "ADVANCED OPTIONS"
 msgstr "高级选项"
@@ -2950,7 +2950,7 @@ msgctxt "game_options"
 msgid "Arrange the dual screen layout."
 msgstr "排列双屏布局。"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid ""
 "Arrange the dual screen layout. Separate windows can be changed with "
@@ -3515,7 +3515,7 @@ msgctxt "game_options"
 msgid "Bottom (Default)"
 msgstr "底部（默认）"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Bottom Only"
 msgstr "仅限底部"
@@ -4513,7 +4513,7 @@ msgid ""
 msgstr ""
 "选择是否将SDL游戏控制器配置传递到Windows游戏。 禁用可能对某些游戏有所帮助。"
 
-#. TRANSLATION: cemu, citra, dolphin, duckstation, gzdoom, ...
+#. TRANSLATION: azahar, cemu, citra, dolphin, duckstation, ...
 msgctxt "game_options"
 msgid "Choose which graphics API library to use."
 msgstr "选择要使用的图形API库。"
@@ -4735,7 +4735,7 @@ msgid ""
 "Vulkan only."
 msgstr "在下次启动游戏时编译着色器(仅一次). 减少微冻结. 仅适用于Vulkan."
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid ""
 "Compile shaders using background threads to avoid shader compilation "
@@ -5015,7 +5015,7 @@ msgctxt "game_options"
 msgid "DISABLE VERTEX CACHE"
 msgstr "禁用顶点缓存"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "DISK SHADER CACHE"
 msgstr "磁盘着色器缓存"
@@ -5659,7 +5659,7 @@ msgctxt "game_options"
 msgid "ENABLE AI TRANSLATION SERVICE"
 msgstr "启用AI翻译服务"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "ENABLE ASYNC SHADER COMPILATION"
 msgstr "启用异步着色器编译"
@@ -6355,7 +6355,7 @@ msgid ""
 "objects clearer."
 msgstr "增强。以16:9的比例增加渲染分辨率。使3D对象更清晰。"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, flycast, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid ""
 "Enhancement. Increase the rendering resolution. Makes 3D objects clearer."
@@ -6687,7 +6687,7 @@ msgctxt "game_options"
 msgid "FRAME DUPING (SPEED UP)"
 msgstr "帧重复（加速）"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "FRAME LIMIT"
 msgstr "帧限制"
@@ -6867,7 +6867,7 @@ msgstr ""
 "修复屏幕撕裂现象，自适应同步（默认设置）会根据视频同步进行同步，但对于低于目"
 "标帧率的延迟帧会立即显示."
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, pcsx2
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "Fix screen tearing. CPU heavy."
 msgstr "修复屏幕撕裂。会增加CPU占用。"
@@ -7437,12 +7437,12 @@ msgctxt "game_options"
 msgid "GRAPHICAL USER INTERFACE"
 msgstr "图形用户界面"
 
-#. TRANSLATION: citra, citra, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "GRAPHICS"
 msgstr "图形"
 
-#. TRANSLATION: cemu, citra, dolphin, duckstation, flycast, ...
+#. TRANSLATION: azahar, cemu, citra, dolphin, duckstation, ...
 msgctxt "game_options"
 msgid "GRAPHICS API"
 msgstr "图形API"
@@ -7733,6 +7733,11 @@ msgctxt "game_options"
 msgid "HARD TEXTURE CACHE MEMORY LIMIT"
 msgstr "硬纹理缓存内存限制"
 
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "HARDWARE SHADER"
+msgstr ""
+
 #. TRANSLATION: theforceengine
 msgctxt "game_options"
 msgid "HD TEXTURES"
@@ -7792,6 +7797,11 @@ msgstr "高级仿真层(每像素)"
 msgctxt "game_options"
 msgid "HLE (per-strip)"
 msgstr "高级仿真层(每条带)"
+
+#. TRANSLATION: yabasanshiro
+msgctxt "game_options"
+msgid "HLE BIOS"
+msgstr ""
 
 #. TRANSLATION: scummvm
 msgctxt "game_options"
@@ -7869,6 +7879,11 @@ msgid ""
 "Helps reduce CPU power consumption by throttling the CPU when not needed. "
 "Useful for handhelds."
 msgstr "在不需要的时候通过设置CPU性能墙来帮助降低CPU功耗，适用于移动设备。"
+
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "Helps some games to launch when disabled. May affect performance."
+msgstr ""
 
 #. TRANSLATION: libretro/dosbox_pure
 msgctxt "game_options"
@@ -7981,12 +7996,12 @@ msgctxt "game_options"
 msgid "Hybrid + Bicubic"
 msgstr "混合 + 双三次插值"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Hybrid Screen Bottom"
 msgstr "混合屏幕底部"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Hybrid Screen Top"
 msgstr "混合屏幕顶部"
@@ -8656,7 +8671,7 @@ msgctxt "game_options"
 msgid "LLVM is fastest, use the Interpreter settings if there are issues."
 msgstr "LLVM是最快的，如果有问题，请使用解释器设置。"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, libretro/mesen, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "LOAD CUSTOM TEXTURES"
 msgstr "加载自定义纹理"
@@ -8681,12 +8696,12 @@ msgctxt "game_options"
 msgid "Landscape"
 msgstr "景观"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Large Bottom"
 msgstr "底部加大"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Large Top"
 msgstr "顶部加大"
@@ -8716,7 +8731,7 @@ msgctxt "game_options"
 msgid "Left stick"
 msgstr "左摇杆"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Left/Right"
 msgstr "左/右"
@@ -9490,7 +9505,7 @@ msgctxt "game_options"
 msgid "NETWORK TYPE"
 msgstr "网络类型"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "NEW 3DS MODE"
 msgstr "New 3DS模式"
@@ -9897,7 +9912,7 @@ msgctxt "game_options"
 msgid "October"
 msgstr "十月"
 
-#. TRANSLATION: cannonball, cemu, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "Off"
 msgstr "关闭"
@@ -9932,7 +9947,7 @@ msgctxt "game_options"
 msgid "Off is safer, On for specific games."
 msgstr "关闭更安全，对于特定游戏打开。"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Off will help some games, others will run too fast."
 msgstr "关闭将有助于某些游戏，而其他游戏则会跑得太快。"
@@ -9954,7 +9969,7 @@ msgctxt "game_options"
 msgid "Olivetti Prodest PC 128S disks (BBC Master Compact)"
 msgstr "Olivetti Prodest PC 128S磁盘（BBC Master Compact）"
 
-#. TRANSLATION: cannonball, citra, citra, citra, citra, ...
+#. TRANSLATION: azahar, azahar, azahar, azahar, azahar, ...
 msgctxt "game_options"
 msgid "On"
 msgstr "开启"
@@ -10064,7 +10079,7 @@ msgctxt "game_options"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#. TRANSLATION: citra, flycast, gzdoom, play, scummvm
+#. TRANSLATION: azahar, citra, flycast, gzdoom, play, ...
 msgctxt "game_options"
 msgid "OpenGL (Default)"
 msgstr "OpenGL（默认）"
@@ -10745,7 +10760,7 @@ msgctxt "game_options"
 msgid "Prefer \"Before NMI\", change to After NMI only if needed by the game."
 msgstr "首选“NMI之前”，仅在游戏需要时更改为“NMI之后”。"
 
-#. TRANSLATION: citra, duckstation
+#. TRANSLATION: azahar, citra, duckstation
 msgctxt "game_options"
 msgid "Preload"
 msgstr "预加载"
@@ -10755,7 +10770,7 @@ msgctxt "game_options"
 msgid "Preload requires more RAM."
 msgstr "预加载需要更多的RAM。"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Preloading is impossible from ES."
 msgstr "无法从ES进行预加载。"
@@ -10927,7 +10942,7 @@ msgctxt "game_options"
 msgid "RENDERING MODE"
 msgstr "渲染模式"
 
-#. TRANSLATION: citra, dolphin, dolphin_triforce, duckstation, libretro/desmume, ...
+#. TRANSLATION: azahar, citra, dolphin, dolphin_triforce, duckstation, ...
 msgctxt "game_options"
 msgid "RENDERING RESOLUTION"
 msgstr "渲染分辨率"
@@ -11098,7 +11113,7 @@ msgctxt "game_options"
 msgid "Reduce load time at the cost of accuracy."
 msgstr "以准确性为代价，减少加载时间。"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Reduce stutter that happens when compiling shaders."
 msgstr "减少编译着色器时发生的卡顿。"
@@ -11271,7 +11286,7 @@ msgctxt "game_options"
 msgid "Right stick"
 msgstr "右摇杆"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Right/Left"
 msgstr "右/左"
@@ -11447,7 +11462,7 @@ msgctxt "game_options"
 msgid "SCREEN INCLINATION"
 msgstr "屏幕倾斜度"
 
-#. TRANSLATION: citra, drastic, libretro/desmume, libretro/melonds, melonds
+#. TRANSLATION: azahar, citra, drastic, libretro/desmume, libretro/melonds, ...
 msgctxt "game_options"
 msgid "SCREEN LAYOUT"
 msgstr "屏幕布局"
@@ -12073,7 +12088,7 @@ msgctxt "game_options"
 msgid "Selfie"
 msgstr "自拍"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Separate Windows"
 msgstr "单独窗口"
@@ -12583,7 +12598,7 @@ msgctxt "game_options"
 msgid "Soften the hash sound effect from some games."
 msgstr "软化某些游戏的哈希音效。"
 
-#. TRANSLATION: citra, duckstation, libretro/melondsds, melonds, pcsx2, ...
+#. TRANSLATION: azahar, citra, duckstation, libretro/melondsds, melonds, ...
 msgctxt "game_options"
 msgid "Software"
 msgstr "软件"
@@ -13247,7 +13262,7 @@ msgctxt "game_options"
 msgid "Tandy Radio Shack Color Computer disk images"
 msgstr "Tandy Radio Shack彩色计算机磁盘映像"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "The New 3DS has a faster processor, ZL/ZR buttons and a C-stick."
 msgstr "New 3DS有更快的处理器、ZL/ZR按钮和一个C摇杆。"
@@ -13408,7 +13423,7 @@ msgctxt "game_options"
 msgid "Top"
 msgstr "顶部"
 
-#. TRANSLATION: citra
+#. TRANSLATION: azahar, citra
 msgctxt "game_options"
 msgid "Top Only"
 msgstr "仅限顶部"
@@ -13906,6 +13921,11 @@ msgid ""
 "Use if you're having graphical issues or GPU problems with this emulator."
 msgstr "如果仿真器存在图形或GPU问题，请开启。"
 
+#. TRANSLATION: yabasanshiro
+msgctxt "game_options"
+msgid "Use internal emulated BIOS. May affect compatibility with some games."
+msgstr ""
+
 #. TRANSLATION: libretro/melonds
 msgctxt "game_options"
 msgid "Use language and username from the NDS Firmware"
@@ -14138,7 +14158,7 @@ msgctxt "game_options"
 msgid "VISUAL NUDGE STRENGTH"
 msgstr "可视化推动强度"
 
-#. TRANSLATION: bigpemu, cemu, citra, demul, dolphin, ...
+#. TRANSLATION: azahar, bigpemu, cemu, citra, demul, ...
 msgctxt "game_options"
 msgid "VSYNC"
 msgstr "垂直同步"
@@ -14228,7 +14248,7 @@ msgctxt "game_options"
 msgid "Vsync"
 msgstr "垂直同步"
 
-#. TRANSLATION: citra, dolphin, duckstation, flycast, gzdoom, ...
+#. TRANSLATION: azahar, citra, dolphin, duckstation, flycast, ...
 msgctxt "game_options"
 msgid "Vulkan"
 msgstr "Vulkan"
